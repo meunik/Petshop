@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Petshop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="index.css">
+	<style>
+		body{
+        background-color: #063344;
+        border: px solid blue; 
+    }
+	</style>
+</head>
+<body class="container-full">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+			<a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+			<a class="nav-item nav-link" href="preços.html">Preços</a>
+			<a class="nav-item nav-link" href="contato.html">Contatos</a>
+			<a class="nav-item nav-link" href="login.html">Login</a>
+			<a class="nav-item nav-link" href="cadastro.html">Cadastro</a>
+			</div>
+		</div>
+		<div class="col-6" align="center">
+			<a id="titulo" href="index.html">|PETSHOP|</a>
+		</div>
+		<div class="col-3">
+			<a id="titulo" href="index.html"><img src='imagens/Pets.png'  width=100/ align="right"></a>
+		</div>
+	</nav>
+	<div id="corpo">
+        <div class="row">
+            <div class="col-9"></div>
+            <form class="col-3 form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">🔎</button>
+            </form>
+        </div>
+		<main>
+            <div class="borda">
+                <table border="0" width="80%" align="center">
+                    <tr>
+                        <td colspan="2">
+                            <h1>Cadastre-se</h1>
+                            <form>
+                                Login:<br>
+                                <input type="text"><br>
+                                Senha:<br>
+                                <input type="password" name="senha"><br>
+                                <br>
+                                Sexo:<br>
+                                <input type="radio" name="Sexo">Masculino<br>
+                                <input type="radio" name="Sexo">Feminino<br>
+                                <br>
+                                Interesses:<br>
+                                <input type="checkbox"> Futebol<br>
+                                <input type="checkbox"> Cursos<br>
+                                <input type="checkbox"> Eletrônico<br>
+                                <br>
+                                Estado:<br>
+                                <select>
+                                    <option>RJ</option>
+                                    <option>SP</option>
+                                    <option>MG</option>
+                                    <option>RS</option>
+                                </select>
+                                <br><br>
+                                Observações:<br>
+                                <textarea></textarea>
+                                <br>
+                                <input type="submit" value="Cadastrar">
+                            </form>
+                            <hr>
+                            <br><br><br>
+                            <form>
+                                Login:<br>
+                                <input type="text" name="login"> <br>
+                                Senha:<br>
+                                <input type="password" name="senha"><br><br>
+                                <input type="submit" value="Login">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

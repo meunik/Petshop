@@ -1,0 +1,53 @@
+#corpo{
+    border: 1px solid rgb(235, 235, 235);
+    margin: 0px 50px 50px 50px;
+    background: rgb(235, 235, 235);
+}
+.nav:hover{
+    transition: .5s;
+    background: #8B0000;
+}
+.caixa{
+    border: px solid blue;
+    margin: 20px;
+}
+#titulo{
+    color: red;
+    margin: 0px;
+    padding: 0px 0px 9px 0px;
+    font-size: oblique;
+    font-size: 30px;
+    font-weight: bold;
+    border: 0px solid red;
+    border-style: outset;
+}
+.texto{
+    padding: 20px;
+    clear: both;
+}
+.galeria-fotos{
+    background: #d6d6d6;
+    width: 30%;
+    padding: 5px;
+    float: left;
+    margin: 5px;
+}
+.borda-titulo{
+    border: 0px solid blue;
+    margin: 30px;
+}
+.tabtitulo{
+    color: #8B0000;
+}
+.tabborda{
+    padding: 100px;
+}
+.borda{
+    border: px solid blue;
+    margin: 150px 30px 60px 30px;
+}
+.login{
+    border: px solid blue;
+    margin: 150px 60px 60px 60px;
+    padding: 10px 30px 30px 20%;
+}
